@@ -1,0 +1,13 @@
+.navbar {
+  background: lightblue;
+  height: 50px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.navbar-list-items {
+  display: flex;
+  justify-content: space-between;
+}
