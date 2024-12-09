@@ -4,3 +4,8 @@ html {
   padding: 0 !important;
   box-sizing: border-box !important;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+}

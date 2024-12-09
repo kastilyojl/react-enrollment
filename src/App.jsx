@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="container-fluid">
         <Navbar NavbarStyle={style} />
-        <div className="container">
+        <div className="container d-flex align-items-center justify-content-center">
           <Hero />
         </div>
       </div>

@@ -4,7 +4,7 @@
 
 ## React Project Setup
 
-- npm create vite@latets
+- npm create vite@latest
 - enter Project Name
 - select React
 - select Javascript

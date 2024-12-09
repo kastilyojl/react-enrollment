@@ -1,6 +1,9 @@
+import study from "../assets/images/study.jpg";
+
 function Hero() {
   return (
     <>
+      <img src={study} alt="study" height={400} />
       <HeroDescription />
     </>
   );
@@ -8,7 +11,7 @@ function Hero() {
 
 const HeroDescription = () => {
   return (
-    <>
+    <div className="d-flex flex-column">
       <h1>Welcome To [School Name]</h1>
       <h1>Enrollment System!</h1>
       <p>
@@ -17,7 +20,7 @@ const HeroDescription = () => {
         enrollment records-all inone place
       </p>
       <button>How To Enroll?</button>
-    </>
+    </div>
   );
 };
 
