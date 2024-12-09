@@ -17,4 +17,6 @@
 
 - npm install vite
 
-December 10, 2024 - Home Page Done
+### Progress
+
+- December 10, 2024 - Home Page Done
