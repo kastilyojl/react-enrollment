@@ -1,0 +1,16 @@
+.HeroContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.enroll-button {
+  width: 160px;
+  border: none;
+  border-radius: 6px;
+  background: #00004c;
+  padding: 10px;
+  color: #ffff;
+  font-weight: bold;
+}

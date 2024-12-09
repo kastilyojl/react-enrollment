@@ -1,10 +1,19 @@
 .navbar {
-  background: lightblue;
+  background: #00004c;
   height: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  color: #ffff;
 }
 
 ul li {
   list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffff;
 }
 
 .navbar-list-items {

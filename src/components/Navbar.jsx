@@ -1,10 +1,12 @@
-const Navbar = ({ NavbarStyle }) => {
+import style from "./Navbar.module.css";
+
+const Navbar = () => {
   return (
     <>
       <nav
-        className={`${NavbarStyle.navbar} d-flex justify-content-between align-items-center`}
+        className={`${style.navbar} px-5 d-flex justify-content-between align-items-center`}
       >
-        <div>Logo</div>
+        <b className="fs-3">Academy</b>
         <NavbarList />
       </nav>
     </>
@@ -13,15 +15,31 @@ const Navbar = ({ NavbarStyle }) => {
 
 const NavbarList = () => {
   return (
-    <ul className="d-flex">
-      <li className="mx-3">Home</li>
-      <li className="mx-3">About</li>
-      <li className="mx-3">Programs</li>
-      <li className="mx-3">Plans</li>
-      <li className="mx-3">Register</li>
-      <li className="mx-3">Payment</li>
-      <li className="mx-3">Login</li>
-      <li className="mx-3">Contact Us</li>
+    <ul className="d-flex m-0">
+      <li className="mx-3">
+        <a href="#">Home</a>
+      </li>
+      <li className="mx-3">
+        <a href="#">About</a>
+      </li>
+      <li className="mx-3">
+        <a href="#">Programs</a>
+      </li>
+      <li className="mx-3">
+        <a href="#">Plans</a>
+      </li>
+      <li className="mx-3">
+        <a href="#">Register</a>
+      </li>
+      <li className="mx-3">
+        <a href="#">Payment</a>
+      </li>
+      <li className="mx-3">
+        <a href="#">Login</a>
+      </li>
+      <li className="mx-3">
+        <a href="#">Contact Us</a>
+      </li>
     </ul>
   );
 };
