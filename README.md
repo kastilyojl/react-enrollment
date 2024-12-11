@@ -16,7 +16,3 @@
 ## If vite is not recognized / not found
 
 - npm install vite
-
-### Progress
-
-- December 9, 2024 - Home Page Done
